@@ -14,7 +14,7 @@ function ContactDetails() {
         <div>
           <p data-aos="fade-down" className="lg:text-[48px] text-[35px] font-[600] text-[#033A5B]">Get In Touch</p>
           <p className="leading-7 lg:max-w-[370px] max-w-[770px] mt-3">
-          Feel free to reach out with any further inquiries or questions at rafferty.pvt.solutions@gmail.com. We look forward to hearing from you!
+          Feel free to reach out with any further inquiries or questions at support@raffertypvt.in. We look forward to hearing from you!
           </p>
         </div>
       </div>
@@ -42,7 +42,7 @@ function ContactDetails() {
               <Envelope />
               <p className="text-[#033A5B] font-bold">Email Us</p>
             </div>
-            rafferty.pvt.solutions@gmail.com
+            support@raffertypvt.in
           </div>
         </div>
       </div>

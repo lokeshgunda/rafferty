@@ -135,7 +135,7 @@ function Footer() {
                         <Envelope />
                       </div>
                       <p className="hover:fill-slate-400 hover:text-slate-400 duration-700">
-                        rafferty.pvt.solutions@gmail.com
+                        support@raffertypvt.in
                       </p>
                     </a>
                   </li>

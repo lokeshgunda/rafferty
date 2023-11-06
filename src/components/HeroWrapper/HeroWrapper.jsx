@@ -22,12 +22,7 @@ function HeroWrapper() {
   ]);
 
   const [idx, setIdx] = useState(0);
-
-  window.onload = 
-    setInterval(() => {
-      setIdx((idx + 1) % data.length);
-    }, 5000);
-
+  
   return (
     <div
       data-aos="zoom-out"

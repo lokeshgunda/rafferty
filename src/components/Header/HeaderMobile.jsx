@@ -92,7 +92,7 @@ function HeaderMobile() {
                 </div>
               </div>
               <div className="content_top">
-                <p>Need help? Let’s Talk</p>
+                <p>Let's connect</p>
                 <h5 className="text-xl"> +91 93460 22733</h5>
               </div>
             </a>
