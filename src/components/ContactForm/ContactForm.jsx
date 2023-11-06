@@ -3,6 +3,8 @@ import Bg from "../../assets/images/bg_4.svg";
 import TopArrow from "../../assets/icons/TopArrow";
 
 function ContactForm() {
+  const dbUrl = process.env.REACT_APP_DB_URL;
+
   return (
     <div
       style={{
@@ -12,9 +14,14 @@ function ContactForm() {
     >
       <div className="grid lg:grid-cols-2 max-w-[1300px] mx-auto">
         <div data-aos="slide-right" className="p-4 py-16">
-          <p data-aos="fade-up" className="uppercase underline text-[#B69D74]">Contact</p>
+          <p data-aos="fade-up" className="uppercase underline text-[#B69D74]">
+            Contact
+          </p>
           <br />
-          <p data-aos="fade-down" className="lg:text-[48px] text-[35px] font-[600] text-[#033A5B]">
+          <p
+            data-aos="fade-down"
+            className="lg:text-[48px] text-[35px] font-[600] text-[#033A5B]"
+          >
             Have A Deal? Get In Touch!
           </p>
 
@@ -59,17 +66,17 @@ function ContactForm() {
           </button>
         </div>
         <div data-aos="slide-left">
-            <div className="w-full lg:h-full h-[75vh]">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.8048323173093!2d-84.15840932512906!3d34.02322031926371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5989ae3979df9%3A0xb688c22e4bd93c0b!2s3057%20Peachtree%20Industrial%20Blvd%20STE%20110%2C%20Duluth%2C%20GA%2030097%2C%20USA!5e0!3m2!1sen!2sin!4v1682485003450!5m2!1sen!2sin"
-                style={{border:0}}
-                className="w-full h-full"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </div>
+          <div className="w-full lg:h-full h-[75vh]">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.795914757091!2d-101.87484192439598!3d33.584647773336634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86fe12b415e6bcd3%3A0x317f44fb0078a337!2sBroadway%20W%2C%20Lubbock%2C%20TX%2C%20USA!5e0!3m2!1sen!2sin!4v1699299547068!5m2!1sen!2sin"
+              style={{ border: 0 }}
+              className="w-full h-full"
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
+        </div>
       </div>
     </div>
   );
