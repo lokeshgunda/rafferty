@@ -26,7 +26,7 @@ function HeroWrapper() {
   return (
     <div
       data-aos="zoom-out"
-      className="min-h-[110vh] w-full md:grid flex grid-cols-5 justify-center items-center bg-[#033a5bcc] text-white"
+      className="min-h-[110vh] max-w-[100vw] overflow-hidden w-full md:grid flex grid-cols-5 justify-center items-center bg-[#033a5bcc] text-white"
     >
       <div className="col-span-1">
         <div className="text-9xl md:block hidden">

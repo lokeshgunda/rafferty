@@ -31,7 +31,7 @@ function Features() {
   },[]);
 
   return (
-    <div className="ps-3 max-w-[1300px] block mx-auto relative top-[-10vh]">
+    <div className="lg:ps-3 md:max-w-[1300px] max-w-[100vw] overflow-hidden block mx-auto relative top-[-10vh]">
       <div className="lg:grid grid-cols-3 text-white">
         {content.map((e, i) => (
           <div data-aos="zoom-in" key={i} className="px-2 w-full text-center lg:my-2 my-4">
