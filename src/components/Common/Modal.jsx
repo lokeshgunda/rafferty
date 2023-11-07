@@ -9,7 +9,7 @@ function Modal(props){
   }, [props.isOpen]);
 
   const twStyles = {
-    backdrop: `transition ${
+    backdrop: `transition max-w-[100vw] ${
       openAnimation ? 'opacity-100' : 'opacity-0'
     } z-50 bg-[#000000BF] fixed flex min-h-screen min-w-screen top-0 left-0 right-0 bottom-0 overflow-y-auto p-8`,
     modal: `transition ${
