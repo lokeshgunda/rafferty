@@ -13,7 +13,7 @@ function ModalBottom(props) {
       <div
         className={`${props.className} transition mx-2 ${
           openAnimation ? "opacity-100 scale-100" : "opacity-0 scale-75"
-        } fixed bottom-0 z-[50000] p- rounded-lg`}
+        } fixed bottom-5 z-[50000] p- rounded-lg`}
         onClick={(e) => e.stopPropagation()}
       >
         <div

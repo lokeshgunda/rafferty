@@ -27,8 +27,8 @@ function App() {
   const [modalM, setModalM] = useState(true)
 
   setTimeout(()=>{
-    // setModalD(false)
-    // setModalM(false)
+    setModalD(false)
+    setModalM(false)
   }, 5000)
 
   return (
