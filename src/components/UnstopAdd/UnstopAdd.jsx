@@ -5,7 +5,7 @@ function UnstopAdd() {
   return (
     <div className="md:min-w-[320px] p-4 bg-slate-300">
       <br className="md:block hidden"/>
-      <a href="">
+      <a href="https://unstop.com/p/rafferty-company-hackathon-win-exciting-awards-internship-and-full-time-opportunity-rafferty-814622">
         <center className="sm:text-2xl text-lg font-serif p-2">
           Win exciting awards, internships, and full-time opportunities by
           participating in our hackathon!
